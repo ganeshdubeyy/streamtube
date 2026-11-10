@@ -1,0 +1,12 @@
+{
+  "rewrites": [
+    {
+      "source": "/api/suggestions",
+      "destination": "https://suggestqueries.google.com/complete/search"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}

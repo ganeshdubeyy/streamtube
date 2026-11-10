@@ -1,0 +1,7 @@
+@import "tailwindcss";
+
+.sidebar-item {
+  @apply flex items-center gap-5 w-full px-3 py-2.5 rounded-lg
+  hover:bg-black/5 dark:hover:bg-white/10
+  text-black dark:text-white cursor-pointer;
+}

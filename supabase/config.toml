@@ -1,0 +1,7 @@
+project_id = "streamtube"
+
+[functions.youtube-webhook]
+verify_jwt = false
+
+[functions.sync-youtube-subscriptions]
+verify_jwt = true
